@@ -1,0 +1,29 @@
+.box {
+  border-radius: 5px;
+  border-radius: 3px;
+  width: 600px;
+  padding: 40px 50px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+
+  &__author {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+  &__bottoms {
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .box__socials {
+      display: flex;
+      gap: 5px;
+    }
+  }
+}
